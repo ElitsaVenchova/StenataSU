@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="org.su.stenata_StenataSU_war_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>org.su.stenata.model.NomSlotCategories</class>
+    <class>org.su.stenata.model.NomSlotTimes</class>
+    <class>org.su.stenata.model.NomZones</class>
+    <class>org.su.stenata.model.SysUsers</class>
+    <class>org.su.stenata.model.NomSlotCategories_1</class>
+    <class>org.su.stenata.model.UserBooking</class>
+    <class>org.su.stenata.model.HistNomZones</class>
+    <class>org.su.stenata.model.HistUserBooking</class>
+    <class>org.su.stenata.model.HistSysUsers</class>
+    <class>org.su.stenata.model.HistNomSlotCategories</class>
+    <class>org.su.stenata.model.HistNomSlotTimes</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://ec2-34-230-149-169.compute-1.amazonaws.com:5432/d2b0a8rqnlv4nc?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory"/>
+      <property name="javax.persistence.jdbc.user" value="fjavvbuyjuhgjw"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="4a259155ce354db980ab5ee7f379d74bcbd72e738eeaef9f1b7684c0bd3cb438"/>
+    </properties>
+  </persistence-unit>
+</persistence>
